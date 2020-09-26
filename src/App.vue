@@ -16,6 +16,15 @@
                 <v-btn class="order-now">order now</v-btn>
             </div>
           </div>
+          <div class="description-container2">
+            <div class="img-banner">
+                <div class="cool-text">better ice cream</div>
+                <div class="cool-text">handmade</div>
+                <div class="cool-text">grassfed dairy</div>
+                <div class="cool-text">delicious</div>
+                <v-btn class="order-now">order now</v-btn>
+            </div>
+          </div>
             <!-- <div class="description-box">
               <img class="photo" :src="require('./assets/photos/corn-blackberry.jpg')"/>
               <div class="cool-text-box">
@@ -117,6 +126,16 @@ export default {
     opacity:0.5;
 }
 
+.img-banner2 {
+      width: 454px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 24px;
+    background: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    }
+
 .photo {
   width: 100%;
 }
@@ -127,6 +146,14 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    display: flex;
+}
+
+.description-container2 {
+  margin-top: 24px;
+    background: url(/assets/photos/mex-hc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
 }
 

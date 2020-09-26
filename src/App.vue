@@ -142,7 +142,7 @@ export default {
 
 .description-container {
   margin-top: 24px;
-    background: url(/img/corn-blackberry.4440df92.jpg);
+    background: url("./assets/photos/corn-blackberry.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -151,7 +151,7 @@ export default {
 
 .description-container2 {
   margin-top: 24px;
-    background: url(/assets/photos/mex-hc.jpg);
+    background: url("./assets/photos/mex-hc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
